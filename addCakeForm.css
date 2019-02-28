@@ -1,0 +1,37 @@
+#add-cake-container {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 0 0 2vh 0;
+  margin: 2vh 0;
+}
+
+#add-cake-form {
+  display: flex;
+  background: lightgrey;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+#add-cake-form-title {
+  color: #5CA4A9;
+}
+
+.cake-form-text-input, .submit-button {
+  border: 1px solid lightgrey;
+  font-size: 2vh;
+  padding: 5px;
+}
+
+.cake-form-text-input {
+  text-align: start;
+  margin: 10px 0;
+}
+
+.submit-button {
+  background-color: #C9C8CC;
+  border-radius: 3%;
+}
+
+.submit-button:hover {
+  background-color: white;
+}

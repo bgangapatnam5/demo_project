@@ -1,0 +1,56 @@
+#list-title {
+  color: #846067;
+  font-size: 4vh;
+  width: 100%;
+}
+
+#search-bar {
+  border: 1px solid #C9C8CC;
+  border-radius: 3%;
+  font-size: 2vh;
+  height: 5vh;
+  width: 100%;
+  padding: 5px;
+}
+
+#cake-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.list-item {
+  background: #F3D0D1;
+  border: 2px solid #C9C8CC;
+  border-radius: 3%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.cake-item-details {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cake-title, .cake-description {
+  width: 100%;
+  margin: 5%;
+}
+
+.cake-title {
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.cake-image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 500px){
+  .list-item {
+    width: 45%;
+  }
+}
